@@ -30,10 +30,13 @@ test: file_keeper_test
 file_keeper_test: file_keeper_test.o $(OBJS)
 	$(CXX) ${CXXFLAGS} $^ -o $@ $(LIB)
 
+file_keeper_sample: file_keeper_sample.o $(OBJS)
+	$(CXX) ${CXXFLAGS} $^ -o $@ $(LIB)
+
 %.o:%.cpp
 	$(CXX) -c ${INCLUDE} ${CXXFLAGS} $^
 
 clean:
-	rm -rf *.out *.o *.log *_test *.test
+	rm -rf *.out *.o *.log *_test *_sample *.test
 
 remake: clean all

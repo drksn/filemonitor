@@ -1,7 +1,7 @@
 #ifndef ITER_FILE_IO_HPP
 #define ITER_FILE_IO_HPP
 
-#include <iter/log.hpp>
+#include <macro_log.hpp>
 #include <functional>
 #include <fstream>
 #include <string>
