@@ -4,7 +4,7 @@
 
 You must include directories:
 
-```filemonitor/include```, ```filemonitor/iter/include``` and ```filemonitor/macrolog/include```.
+```include```, ```iter/include``` and ```macrolog/include```.
 
 ## Requirements ##
 1. Compile options: --std=c++11 -pthread
