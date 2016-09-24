@@ -1,0 +1,6 @@
+[submodule "iter"]
+	path = iter
+	url = https://github.com/qianyl/iter.git
+[submodule "macrolog"]
+	path = macrolog
+	url = https://github.com/qianyl/macrolog.git
