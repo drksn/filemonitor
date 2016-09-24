@@ -8,7 +8,7 @@ You must include directories:
 
 ## Requirements ##
 1. Compile options: --std=c++11 -pthread
-2. Linux kernel: >= 2.6 (inotify for FileMonitor)
+2. Linux kernel: >= 2.6 (inotify)
 
 ## Log settings ##
 You can get more information from [here](https://github.com/qianyl/macrolog#log-settings).
