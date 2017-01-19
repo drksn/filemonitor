@@ -5,7 +5,7 @@
 #define ITER_FILE_MONITOR_IMPL_HPP
 
 #include <iter/registry.hpp>
-#include <macrolog/macrolog.hpp>
+#include <macrolog.hpp>
 #include <sys/inotify.h>
 #include <sys/select.h>
 #include <sys/time.h>
